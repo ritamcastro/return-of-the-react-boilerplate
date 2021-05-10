@@ -1,14 +1,17 @@
 {
-    "name": "react-boilerplate-from-scratch",
+    "name": "return-of-the-react-boilerplate",
     "version": "1.0.0",
-    "description": "",
+    "description": "The return of React boilerplate with Babel and Webpack",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "webpack serve"
     },
-    "author": "",
+    "author": "ritamcastro",
     "license": "ISC",
-    "dependencies": {},
+    "dependencies": {
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    },
     "devDependencies": {
         "@babel/cli": "^7.13.16",
         "@babel/core": "^7.14.0",
